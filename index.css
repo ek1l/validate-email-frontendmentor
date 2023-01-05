@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container h1{
+font-size: 50px;
+color: gray;
+}
+
+.container span {
+    color: black;
+}
+
+#camp-email {
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+    width: 300px;
+    border: 2px solid black;
+}
+
+
+#camp-button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border:none;
+    background-color: rgb(19, 19, 250);
+    transition: 0.3s;
+}
+
+.cor {
+    background-color: red;
+}
+
+.corr {
+   background-color: limegreen;
+}
+
+#camp-button:hover {
+    width: 120px;
+    padding: 10px;
+    border-radius: 50px 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.562);
+    font-weight: bold;
+    border:none;
+    background-color: rgb(19, 19, 250);
+}
+
+.campo-email {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-baixo {
+    margin-top: 60px;
+}
+
+.img-baixo img {
+    width: 700px;
+}
